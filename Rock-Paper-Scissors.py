@@ -3,7 +3,7 @@ import pwinput
 
 
 def gamevscomp():
-    personchoice = input("Please enter your choice from Rock/Paper/Scissors\n")
+    personchoice = input("Plese enter your choice from Rock/Paper/Scissors\n")
     if personchoice != "Rock" and personchoice != "Paper" and personchoice != "Scissors":
         print("\nPlease enter a valid choice")
         result = -1
