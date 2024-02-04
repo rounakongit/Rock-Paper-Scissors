@@ -41,7 +41,7 @@ def gamevscomp():
 
 
 def gamevsplayer(p1, p2):
-    print(str(p1)+",plase enter your choice from Rock/Paper/Scissors\n")
+    print(str(p1)+",please enter your choice from Rock/Paper/Scissors\n")
     p1choice = pwinput.pwinput(prompt="Choice: ", mask=" ")
     print(str(p2) + ",please enter your choice from Rock/Paper/Scissors\n")
     p2choice = pwinput.pwinput(prompt="Choice: ", mask=" ")
